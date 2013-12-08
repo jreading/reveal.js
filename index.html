@@ -68,7 +68,7 @@
 
 				<section data-background="#7ec0ee">
 					<h3>Modules</h3>
-					<p>I learned a great deal from reading articles from Brian Cavalier, John Hann and Alex Sexton.</p>
+					<p>I learned a great deal from Brian Cavalier, John Hann and Alex Sexton.</p>
 					<ol>
 						<li class="fragment roll-in">Well-structured applications demand a modular approach</li>
 						<li class="fragment roll-in">Decouple (or loosely couple) your modules from their dependencies and each other</li>
@@ -78,10 +78,10 @@
 
 				<section data-background="#7ec0ee">
 					<h3>I had a bright idea</h3>
-					<h4>Use Classes as Modules</h4>
+					<h4 class="fragment roll-in">Use Classes as Modules</h4>
 					<p class="fragment roll-in">I found the John Resig Class and used that as a basis from my modules.</p>
 					<p class="fragment roll-in">We now have some sugar for the prototype chain, options, an extend and _super method.</p>
-					<p class="fragment roll-in">I made a Widget Class that contains some common properties, creating the basis for everything UI.</p>
+					<p class="fragment roll-in">I made a Widget Class that contains some common properties and methods, creating the basis for everything UI.</p>
 				</section>
 
 				<section data-background="#7ec0ee">
@@ -89,7 +89,7 @@
 				</section>
 
 				<section data-background="#7ec0ee">
-					<p>Making new widgets was easy and came with a base set of functionality.</p>
+					<p>Making new widgets was easy and each one came with a base set of functionality.</p>
 				</section>
 
 				<section data-background="#7ec0ee">
@@ -98,7 +98,7 @@
 
 				<section data-background="#7ec0ee">
 					<h3>Elements as Instances</h3>
-					<p class="fragment roll-in">Instantiating a class meant giving an element a class for that widget.</p>
+					<p class="fragment roll-in">Instantiating a Class meant giving an element a css class for that widget.</p>
 					<p class="fragment roll-in">HTML5 data attributes are used for options.</p>
 					<p class="fragment roll-in">Configurable, flexible variations in a declarative way.</p>
 				</section>
@@ -108,10 +108,10 @@
 				</section>
 
 				<section data-background="#7ec0ee">
-					<h3>Stop being a jQuery Developer</h3>
+					<h3>One foot out of jQuery</h3>
 					<p class="fragment roll-in">We used a bridge function to bind the objects to the elements.</p>
-					<p class="fragment roll-in">We weren't writing jQuery plugins, but a set of methods that got turned into a plugin.</p>
-					<p class="fragment roll-in">While jQuery was a dependency, it didn't define the architecture.</p>
+					<p class="fragment roll-in">We weren't writing jQuery plugins directly, but a set of methods that got turned into a plugin.</p>
+					<p class="fragment roll-in">While jQuery was a hard dependency, it didn't define the architecture.</p>
 				</section>
 
 				<section data-background="#7ec0ee">
@@ -165,7 +165,7 @@
 				<section data-background="#7ec0ee">
 					<h3>Developers</h3>
 					<p>Our organization suffered from a creeping ignorance.</p>
-					<p class="fragment roll-in">A general "download-the-latest-plugin-and-implement-the-api" culture was forming with the explosion of a million OSS projects.</p>
+					<p class="fragment roll-in">A general "download-the-latest-plugin-and-implement-the-api" culture was forming with the explosion of a million open-source projects.</p>
 					<p class="fragment roll-in">JSM made our team stop and think about how to write javascript for the defined requirements.</p>
 					<p class="fragment roll-in">Our code was cleaner, clearer, and easier to document, understand, extend, and share.</p>
 				</section>
